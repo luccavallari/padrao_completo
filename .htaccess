@@ -1,0 +1,9 @@
+RewriteEngine on
+#RewriteBase /unimed_diaSecretaria/
+#RewriteRule ^index\.php$ - [L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /unimed_diaSecretaria/index.php [L]
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule .* index.php/$1 [L]

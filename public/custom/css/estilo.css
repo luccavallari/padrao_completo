@@ -1,0 +1,250 @@
+@font-face {
+  font-family: 'unimed_sansbold';
+  src: url('fontes/unimedsans-bold-webfont.eot');
+  src: url('fontes/unimedsans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fontes/unimedsans-bold-webfont.woff2') format('woff2'), url('fontes/unimedsans-bold-webfont.woff') format('woff'), url('fontes/unimedsans-bold-webfont.ttf') format('truetype'), url('fontes/unimedsans-bold-webfont.svg#unimed_sansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unimed_sansregular';
+  src: url('fontes/unimedsans-regular-webfont.eot');
+  src: url('fontes/unimedsans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fontes/unimedsans-regular-webfont.woff2') format('woff2'), url('fontes/unimedsans-regular-webfont.woff') format('woff'), url('fontes/unimedsans-regular-webfont.ttf') format('truetype'), url('fontes/unimedsans-regular-webfont.svg#unimed_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unimed_slabbold';
+  src: url('fontes/unimedslab-bold-webfont.eot');
+  src: url('fontes/unimedslab-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fontes/unimedslab-bold-webfont.woff2') format('woff2'), url('fontes/unimedslab-bold-webfont.woff') format('woff'), url('fontes/unimedslab-bold-webfont.ttf') format('truetype'), url('fontes/unimedslab-bold-webfont.svg#unimed_slabbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unimed_slabregular';
+  src: url('fontes/unimedslab-regular-webfont.eot');
+  src: url('fontes/unimedslab-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fontes/unimedslab-regular-webfont.woff2') format('woff2'), url('fontes/unimedslab-regular-webfont.woff') format('woff'), url('fontes/unimedslab-regular-webfont.ttf') format('truetype'), url('fontes/unimedslab-regular-webfont.svg#unimed_slabregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unimed_slabitalic';
+  src: url('fontes/unimedslab-regularitalic-webfont.eot');
+  src: url('fontes/unimedslab-regularitalic-webfont.eot?#iefix') format('embedded-opentype'), url('fontes/unimedslab-regularitalic-webfont.woff2') format('woff2'), url('fontes/unimedslab-regularitalic-webfont.woff') format('woff'), url('fontes/unimedslab-regularitalic-webfont.ttf') format('truetype'), url('fontes/unimedslab-regularitalic-webfont.svg#unimed_slabitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'nexa_bookregular';
+  src: url('fontes/nexa-book_1-webfont.eot');
+  src: url('fontes/nexa-book_1-webfont.eot?#iefix') format('embedded-opentype'), url('fontes/nexa-book_1-webfont.woff2') format('woff2'), url('fontes/nexa-book_1-webfont.woff') format('woff'), url('fontes/nexa-book_1-webfont.ttf') format('truetype'), url('fontes/nexa-book_1-webfont.svg#nexa_bookregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+.esconde {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(../img/fundo.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+}
+header {
+  width: 100%;
+}
+header .container img {
+  position: relative;
+}
+header .container img::before {
+  content: " ";
+  background: url(../img/seta.png) no-repeat center center;
+  width: 124px;
+  height: 44px;
+  position: relative;
+  z-index: 2;
+}
+img {
+  max-width: 100%;
+}
+@media (min-width: 1200px) {
+  .imgPremios {
+    margin: 50px 0px 0px 90px;
+  }
+  .imgTexto {
+    margin: -8px 0px 30px 18px;
+  }
+  .caixaRosa {
+    background: #e81b64;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 10px;
+    font-family: 'unimed_slabregular';
+  }
+  form {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 45px;
+    margin: 0px 70px 0px 18px;
+  }
+  form input {
+    margin: 10px 0px;
+  }
+  form p {
+    color: #e81b64;
+    text-align: center;
+    font-weight: bolder;
+  }
+  form .radioBtn {
+    margin-left: 25px;
+  }
+  form .radioBtn input[type="radio"] {
+    vertical-align: top;
+  }
+  form button {
+    font-family: 'unimed_slabregular';
+    font-weight: bolder;
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .imgPremios {
+    margin: 50px 0px 0px 0px;
+  }
+  .imgTexto {
+    margin: -8px 0px 30px -18px;
+  }
+  .caixaRosa {
+    background: #e81b64;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 10px;
+    font-family: 'unimed_slabregular';
+  }
+  form {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    margin: 0px 70px 0px 18px;
+  }
+  form input {
+    margin: 10px 0px;
+  }
+  form p {
+    color: #e81b64;
+    text-align: center;
+    font-weight: bolder;
+  }
+  form .radioBtn {
+    margin-left: 25px;
+  }
+  form .radioBtn input[type="radio"] {
+    vertical-align: top;
+  }
+  form button {
+    font-family: 'unimed_slabregular';
+    font-weight: bolder;
+    font-size: 20px;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .imgPremios {
+    margin: 50px 0px 0px 0px;
+  }
+  .imgTexto {
+    margin: -8px 0px 30px -18px;
+  }
+  .caixaRosa {
+    background: #e81b64;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 10px;
+    font-family: 'unimed_slabregular';
+  }
+  form {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    margin: 0px 70px 0px 18px;
+  }
+  form input {
+    margin: 10px 0px;
+  }
+  form p {
+    color: #e81b64;
+    text-align: center;
+    font-weight: bolder;
+  }
+  form .radioBtn {
+    margin-left: 25px;
+  }
+  form .radioBtn input[type="radio"] {
+    vertical-align: top;
+  }
+  form button {
+    font-family: 'unimed_slabregular';
+    font-weight: bolder;
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .imgPremios {
+    margin: 50px 0px 0px 0px;
+  }
+  .imgTexto {
+    margin: 20px 0 30px 0px;
+  }
+  .caixaRosa {
+    background: #e81b64;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-right: 0px;
+    border-radius: 10px;
+    font-family: 'unimed_slabregular';
+  }
+  form {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
+  }
+  form input {
+    margin: 10px 0px;
+  }
+  form p {
+    color: #e81b64;
+    text-align: center;
+    font-weight: bolder;
+  }
+  form .radioBtn {
+    margin-left: 25px;
+  }
+  form .radioBtn input[type="radio"] {
+    vertical-align: top;
+  }
+  form button {
+    font-family: 'unimed_slabregular';
+    font-weight: bolder;
+    font-size: 20px;
+  }
+}
